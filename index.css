@@ -1,0 +1,56 @@
+header {
+	/*background-color: lightblue;*/
+  	border-radius: 25px;
+  	background: #008080;
+  	padding: 150px;
+	width: 81%;
+  	height: 100px;
+  	padding-top: 10px;
+  	padding-bottom: 50px;
+  	justify-content: center;
+  	align-items: center;
+  	border-color: green;
+	text-align: center;
+	color: white;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+html{
+	background: #191919;
+}
+.isa {
+	background-color: white;
+	width: 50%;
+	float: left;
+
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+	padding-width: 45%;
+	padding-top: 20px;
+  	padding-bottom: 20px;
+
+
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-align: center;
+}
+.dalwa {
+	background-color: #40E0D0;
+	width: 50%;
+	float: left;
+
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+	padding-width: 45%;
+	padding-top: 20px;
+  	padding-bottom: 20px;
+
+
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-align: center;
+}
+.row:after {
+	content: "";
+  	display: table;
+ 	clear: both;
+
+}
